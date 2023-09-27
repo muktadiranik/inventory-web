@@ -1,0 +1,58 @@
+
+.user-profile-avater > img {
+    width: 150px;
+    max-height: 150px;
+    object-fit: cover;
+    margin-top: 1rem;
+    object-position: top;
+    border-radius: 4.5rem;
+}
+
+
+.profile-update-img{
+    text-align: center;
+    position: relative;
+    margin-bottom: 1rem;
+}
+.profile-update-img img{
+    width: 150px;
+    max-height: 150px;
+    object-fit: cover;
+    margin-top: 1rem;
+    object-position: top;
+}
+.profile-update-img .file {
+    position: absolute;
+    border: none;
+    width: 150px;
+    padding: 5px 10px;
+    border-radius: 0;
+    font-size: 12px;
+    background: #212529b8!important;
+    left: 50%;
+    bottom: 0px;
+    transform: translateX(-50%);
+    color: #fff;
+}
+.profile-update-img .file input {
+    position: absolute;
+    opacity: 0;
+    right: 0;
+    top: 0;
+    left: 0;
+    height: 100%;
+}
+
+
+@media (max-width: 575px) {
+    .personal-info li .title {
+        text-align: start;
+    }
+    .personal-info li .text{
+        text-align: start;
+    }
+    .user-profile-avater > img{
+        width: 100px;
+        max-height: 100px;
+    }
+}
